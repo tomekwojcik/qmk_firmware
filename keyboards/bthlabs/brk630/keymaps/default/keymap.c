@@ -31,7 +31,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_LALT, KC_LGUI, KC_SPC, _______, _______, KC_RGUI, MEDIA,   KC_LEFT, KC_DOWN, KC_RIGHT, KC_BSLS, KC_DEL,  KC_BSPC
   ),
   [_MEDIA] = LAYOUT( /* Media controls */
-    _______, KC_F1,   KC_F2,   KC_F3,   _______, _______, _______,  KC_MRWD, MC_MPLY, KC_MFFD, KC_MUTE, KC_MVOLDOWN, KC_VOLUP,
+    _______, KC_F1,   KC_F2,   KC_F3,   _______, _______, _______,  KC_MRWD, KC_MPLY, KC_MFFD, KC_MUTE, KC__VOLDOWN, KC__VOLUP,
     _______, _______, _______, _______, _______, _______, _______,  _______, _______, _______, _______, _______,     _______,
     _______, _______, _______, _______, _______, _______, _______,  _______, _______, _______, _______, _______,     _______,
     _______, _______, _______, _______, _______, _______, _______,  _______, _______, _______, _______, _______,     _______,
